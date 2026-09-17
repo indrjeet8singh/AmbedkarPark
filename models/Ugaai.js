@@ -30,12 +30,6 @@ const ugaaiSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-     year: {
-      type: Number,
-      required:true,
-    },
-
-
     status: {
       type: String,
       enum: ["active", "deceased"],
