@@ -31,7 +31,7 @@ const ugaaiSchema = new mongoose.Schema(
       default: "",
     },
      year: {
-      type: number,
+      type: Number,
       required:true,
     },
 
