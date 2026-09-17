@@ -30,6 +30,11 @@ const ugaaiSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
+     year: {
+      type: number,
+      required:true,
+    },
+
 
     status: {
       type: String,
